@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="ListDemo\Comparer.cs" />
     <Compile Include="ListDemo\ComparerPro.cs" />
+    <Compile Include="ListDemo\Distinct.cs" />
+    <Compile Include="ListDemo\DistinctPro.cs" />
     <Compile Include="MODEL\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

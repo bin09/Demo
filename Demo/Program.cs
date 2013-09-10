@@ -11,7 +11,9 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            List<Product> list = ComparerProduct();
+           // List<Product> list = ComparerProduct();
+
+            List<Product> list2 = ComparerDistinct();
         }
 
         static List<Product> ComparerProduct()
@@ -29,7 +31,20 @@ namespace Demo
             y.Add(p3);
 
             return comparerPro.Check(x, y);
-            //return x.Except(y).ToList();
+          //  return x.Except(y).ToList();
+        }
+        static List<Product> ComparerDistinct()
+        {
+            DistinctPro distinctPro = new DistinctPro();
+
+            List<Product> x = new List<Product>();
+            Product p1 = new Product() { Id = 1, Name = "tea" };
+            Product p2 = new Product() { Id = 2, Name = "tea" };
+            x.Add(p1);
+            x.Add(p2);
+
+
+            return distinctPro.Check(x);
         }
     }
 }
