@@ -12,6 +12,7 @@ namespace Demo
         static void Main(string[] args)
         {
             // List<Product> list = ComparerProduct();
+           List<int> listEx=  Ex.ExSort(new List<int> { 2, 3, 4 });
 
             List<Product> list2 = ComparerDistinct();
         }
@@ -48,10 +49,11 @@ namespace Demo
             {
                 Product t = item;
             }
-            Product p3 = x.Find((ss => { return ss.Name == "tea"; })); 
-            IEnumerable<Product> p4= x.FindAll(t2 => { return t2.Name == "tea"; });
+            Product p3 = x.Find((ss => { return ss.Name == "tea"; }));
+            IEnumerable<Product> p4 = x.FindAll(t2 => { return t2.Name == "tea"; });
 
             return distinctPro.Check(x);
+
         }
     }
 }
