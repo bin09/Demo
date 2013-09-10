@@ -12,7 +12,7 @@ namespace Demo.ListDemo
         /// </summary>
         /// <param name="list"></param>
         /// <returns></returns>
-        public static List<int> ExSort(this List<int> list)
+        public static List<int> ExSort(this  List<int> list)
         {
             List<int> myList = new List<int> { };
             list.Sort();
