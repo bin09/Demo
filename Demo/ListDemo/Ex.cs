@@ -21,7 +21,7 @@ namespace Demo.ListDemo
                 if (item > 3)
                     myList.Add(item);
             }
-            return myList;  
+            return myList;
         }
     }
 }
