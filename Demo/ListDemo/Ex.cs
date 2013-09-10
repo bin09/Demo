@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Demo.ListDemo
 {
-    public static class Ex
+    public  class Ex
     {
         /// <summary>
         /// 扩展方法

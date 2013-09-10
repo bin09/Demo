@@ -7,22 +7,21 @@ using Demo.MODEL;
 
 namespace Demo
 {
-    class Program
+     class Program
     {
         static void Main(string[] args)
         {
             // List<Product> list = ComparerProduct();
-           List<int> listEx=  Ex.ExSort(new List<int> { 2, 3, 4 });
+           List<int> listEx=  Ex.ExSort(new List<int> { 2, 3, 4 }); 
            
-
+            
             List<Product> list2 = ComparerDistinct();
         }
-
         static List<Product> ComparerProduct()
         {
             ComparerPro comparerPro = new ComparerPro();
 
-            List<Product> x = new List<Product>(); 
+            List<Product> x = new List<Product>();  
             Product p1 = new Product() { Id = 1, Name = "tea" };
             Product p2 = new Product() { Id = 2, Name = "cup" };
             x.Add(p1);
