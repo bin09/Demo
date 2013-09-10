@@ -43,7 +43,6 @@ namespace Demo
             x.Add(p1);
             x.Add(p2);
 
-
             return distinctPro.Check(x);
         }
     }
